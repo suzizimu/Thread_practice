@@ -1,6 +1,6 @@
 package practice2_1;
 
-public class MyObject_2_1_6_2B extends MyObject_2_1_6_2A{
+public class MyObject2_1_6_2B extends MyObject2_1_6_2A {
 
     synchronized
     public void operateISubMethod(){
