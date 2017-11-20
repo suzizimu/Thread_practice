@@ -6,9 +6,9 @@ package practice2_3;
  * 关键字volatile的作用是强制从公共堆栈中取得变量的值，而不是从线程私有数据栈中取得变量的值
  *
  */
-public class Run2_3_3_1 {
+public class Run2_3_3 {
     public static void main(String[] args) throws InterruptedException { ;
-        Thread2_3_3_1 thread=new Thread2_3_3_1();
+        Thread2_3_3 thread=new Thread2_3_3();
         thread.start();
         Thread.sleep(1000);
         thread.setRunning(false);

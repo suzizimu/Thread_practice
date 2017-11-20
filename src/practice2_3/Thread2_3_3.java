@@ -1,6 +1,6 @@
 package practice2_3;
 
-public class Thread2_3_3_1  extends Thread {
+public class Thread2_3_3 extends Thread {
    //volatile
    private boolean isRunning=true;
 
